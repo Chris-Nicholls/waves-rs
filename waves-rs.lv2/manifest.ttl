@@ -3,6 +3,8 @@
 
 
 <https://github.com/Chris-Nicholls/waves-lv2-rust> a lv2:Plugin .
+
 <https://github.com/Chris-Nicholls/waves-lv2-rust> lv2:binary <libwaves.so> .
-<https://github.com/Chris-Nicholls/waves-lv2-rust> rdfs:seeAlso <waves.ttl> .
+<https://github.com/Chris-Nicholls/waves-lv2-rust> rdfs:seeAlso <amp.ttl> .
+ 
 <https://github.com/Chris-Nicholls/waves-lv2-rust> rdfs:seeAlso <modgui.ttl> .

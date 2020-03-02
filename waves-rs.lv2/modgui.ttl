@@ -35,11 +35,7 @@
             lv2:name "Level" ;
         ] , [
             lv2:index 5 ;
-            lv2:symbol "threshold" ;
-            lv2:name "threshold" ;
-        ] , [
-            lv2:index 6 ;
-            lv2:symbol "waveform" ;
-            lv2:name "waveform" ;
+            lv2:symbol "dwell" ;
+            lv2:name "dwell" ;
         ] ;
     ] .
