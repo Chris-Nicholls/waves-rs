@@ -11,12 +11,19 @@
 @prefix pprops: <http://lv2plug.in/ns/ext/port-props#> .
 
 
+rdfs:comment """
+An ambient polyphonic pitch tracking synthesiser. 
+The waves will follow your playing and create a harmonic wash underneath your playing. 
+The 'dwell' parameter controls how fast or slow the plugin will react to new notes.  
+
+Your playing is tracked and converted into multiple oscillators with selectable waveform. 
+Each oscillator is controlled with an ADSR envelope, and the output is filtered with a second-order low-pass filter. 
+
+Please note, your instrument must be tuned to A=440hz to work properly with this plugin. 
+""";
+
 <https://github.com/Chris-Nicholls/waves-lv2-rust>
         a lv2:Plugin, lv2:SpectralPlugin;
-
-rdfs:comment """
-Waves plugin.....
-""";
 
         doap:name "Waves" ;
         lv2:minorVersion 0;
