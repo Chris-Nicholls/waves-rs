@@ -1,0 +1,8 @@
+{
+    "bundles": [
+        { "name": "waves-rs.lv2" }
+    ],
+    "project": "Waves-rs",
+    "developer": "Chris Nicholls",
+    "buildroot_pkg": "waves-rs"
+}
