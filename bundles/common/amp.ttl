@@ -14,6 +14,10 @@
 <https://github.com/Chris-Nicholls/waves-lv2-rust>
         a lv2:Plugin, lv2:SpectralPlugin;
 
+rdfs:comment """
+Waves plugin.....
+""";
+
         doap:name "Waves" ;
         lv2:minorVersion 0;
         lv2:microVersion 1;
